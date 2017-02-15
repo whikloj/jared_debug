@@ -1,0 +1,14 @@
+jared_debug.content:
+  path: '/jared_debug'
+  defaults:
+    _controller: '\Drupal\jared_debug\Controller\JaredDebugController::content'
+    _title: 'Jared Debug'
+  requirements:
+    _permission: 'access content'
+jared_debug_di.content:
+  path: '/jared_debug_di'
+  defaults:
+    _controller: '\Drupal\jared_debug\Controller\JaredJsonLdController::content'
+    _title: 'Jared Debug DI'
+  requirements:
+    _permission: 'access content'

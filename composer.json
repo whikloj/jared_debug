@@ -1,0 +1,6 @@
+{
+  "name": "drupal/jared_debug",
+  "description": "Stupid drupal 8 debug script",
+  "type": "drupal-module",
+  "license": "GPL-2.0+"
+}

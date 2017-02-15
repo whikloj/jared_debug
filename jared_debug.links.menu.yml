@@ -1,0 +1,12 @@
+jared_debug.admin:
+  title: 'Jared Debug settings'
+  description: 'go go gadget stuff'
+  parent: system.admin_config_development
+  route_name: jared_debug.content
+  weight: 100
+jared_debug.admin_two:
+  title: 'Jared Debug service example'
+  description: 'DI service'
+  parent: system.admin_config_development
+  route_name: jared_debug_di.content
+  weight: 100
